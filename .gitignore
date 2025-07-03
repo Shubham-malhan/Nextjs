@@ -1,0 +1,63 @@
+# =========================
+# Global Git Ignore for all Next.js Projects
+# =========================
+
+# Node modules
+**/node_modules/
+
+# Build output
+**/.next/
+**/out/
+**/dist/
+
+# Logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/expo-debug.log
+
+# Environment files
+**/.env
+**/.env.*.local
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# System files
+**/.DS_Store
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
+
+# Editor folders
+**/.vscode/
+**/.idea/
+
+# Lint/Cache
+**/.eslintcache
+**/.cache/
+**/.turbo/
+
+# Coverage reports
+**/coverage/
+**/*.lcov
+
+# Misc credentials / security
+**/*.pem
+**/*.key
+**/*.crt
+**/*.p12
+**/*.p8
+
+# Optional Next.js export directory
+**/exported/
+
+# Temporary
+**/tmp/
+**/temp/
+
+# Storybook (if used)
+**/.storybook-out/
